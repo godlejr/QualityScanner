@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">QualityScanner</string>
+    <string name="main_intro">
+        [ QR Code System ]  \n
+
+ &#160; - QR Code를 바로 찍으세요 \n
+
+ &#160; &#160;  - 다이렉트 링크로 웹페이지가 연결 됩니다 \n
+
+ &#160; &#160; &#160;   - 연결된 페이지에서 원하는 Data를 얻으세요</string>
+
+    <string name="scanner_intro">네모 영역에 QR코드를 맞추면 자동인식합니다.</string>
+</resources>
