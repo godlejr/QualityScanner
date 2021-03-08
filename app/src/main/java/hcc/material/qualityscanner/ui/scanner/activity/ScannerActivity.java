@@ -121,7 +121,7 @@ public class ScannerActivity extends BaseActivity implements ScannerView {
         @BindView(R.id.ib_toolbarmainback_back)
         ImageButton mToolbarBackBtn;
 
-        @BindView(R.id.tv_toolbarmainback_title)
+        @BindView(R.id.tv_toolbartextback_title)
         TextView mToolbarTitle;
 
     }

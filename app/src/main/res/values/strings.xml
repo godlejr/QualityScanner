@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">QualityScanner</string>
+    <string name="app_name">내방객시스템-QR스캐너</string>
     <string name="main_intro">
         [ QR Code System ]  \n
 
@@ -11,4 +11,6 @@
  &#160; &#160; &#160;   - 연결된 페이지에서 원하는 Data를 얻으세요</string>
 
     <string name="scanner_intro">네모 영역에 QR코드를 맞추면 자동인식합니다.</string>
+    <string name="scanner_title">내방객시스템-방문 QR 인식</string>
+
 </resources>

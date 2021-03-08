@@ -62,8 +62,10 @@ public class MainActivity extends BaseActivity implements MainView  {
                IntentResult scanResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
                String url = scanResult.getContents();
 
-               Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-               startActivity(intent);
+
+//               Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+//               startActivity(intent);
+               this.mPresenter.onScanQRcod(url);
 
 
            }else{

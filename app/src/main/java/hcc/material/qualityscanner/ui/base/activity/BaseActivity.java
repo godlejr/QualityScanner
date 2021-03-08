@@ -42,4 +42,8 @@ public abstract class BaseActivity extends AppCompatActivity implements BaseView
 
     protected abstract void init();
 
+    @Override
+    public Context getContext() {
+        return this.mContext;
+    }
 }
